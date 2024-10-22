@@ -1,6 +1,14 @@
 footer {
-    background-color: #333; /* Color de fondo oscuro (ajusta el valor hexadecimal) */
-    color: #fff; /* Color de texto blanco */
-    text-align: center;
+    background-color: $dark-color; /* Color de fondo oscuro para contraste */
+    color: $secondary-color;
+    text-align: center; /* Texto de derechos de autor centrado */
     padding: 20px;
-  }
+}
+
+/*
+//Colores:
+$primary-color: #437a90;
+$secondary-color: #ffffff;
+$dark-color: #00465c;
+$text-color: #000000;
+*/
