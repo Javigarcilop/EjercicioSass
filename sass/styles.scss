@@ -21,3 +21,21 @@ footer {
     text-align: center; /* Texto de derechos de autor centrado */
     padding: 20px;
 }
+
+header {
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+
+.a {
+    color: $secondary-color;
+}
+
+nav {
+    text-align: right;
+}
+
+img {
+    margin-left: 20em;
+}
+

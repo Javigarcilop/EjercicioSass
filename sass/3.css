@@ -1,3 +1,4 @@
+
 .row:after {
   display: block;
   clear: both;
@@ -16,6 +17,7 @@
 [class^=col-]:last-child {
   margin-right: 0%;
 }
+
 
 .col-4 {
   width: 31.3333333333%;
