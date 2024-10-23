@@ -1,0 +1,26 @@
+scss:
+
+
+
+@mixin column($span) {
+    width: 33% auto;
+    float: left;
+    padding: 15px;
+
+  }
+
+  // Uso: @include column(4); para cada columna (3 columnas = 12/3)
+  
+  .col-4{
+    @include column(4);
+    width:30%;
+  }
+
+  css:
+
+  .col-4 {
+  width: 33% auto;
+  float: left;
+  padding: 15px;
+  width: 30%;
+}/*# sourceMappingURL=3.css.map */
