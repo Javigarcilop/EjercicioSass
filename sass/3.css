@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+=======
+.row:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.row + .row {
+  margin-top: 3%;
+}
+
+[class^=col-] {
+  float: left;
+  margin-right: 3%;
+  box-sizing: border-box;
+}
+[class^=col-]:last-child {
+  margin-right: 0%;
+}
+
+>>>>>>> 39b30c02e60571404bc44a264f73b16106cba44d
 .col-4 {
   width: 31.3333333333%;
 }/*# sourceMappingURL=3.css.map */
