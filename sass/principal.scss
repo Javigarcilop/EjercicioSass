@@ -1,3 +1,4 @@
-button {
+@mixin button {
     background-color: $colourful-color ;
+    border-radius: 15%;
 }
