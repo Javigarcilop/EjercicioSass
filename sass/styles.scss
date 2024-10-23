@@ -10,3 +10,12 @@ $text-color: #000000;
 $font-family: 'Roboto';
 $heading-size: 2.5rem;
 $text-size: 1rem;
+
+
+//Footer:
+footer {
+    background-color: $dark-color; /* Color de fondo oscuro para contraste */
+    color: $secondary-color;
+    text-align: center; /* Texto de derechos de autor centrado */
+    padding: 20px;
+}
