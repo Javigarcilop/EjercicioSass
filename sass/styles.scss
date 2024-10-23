@@ -5,10 +5,20 @@ $primary-color: #437a90;
 $secondary-color: #ffffff;
 $dark-color: #00465c;
 $colourful-color : #7830eb;
+$text-color: #000000;
 
 $text-color: #000000;
 //Tipografía:
 $font-family: 'Roboto';
 $heading-size: 2.5rem;
 $text-size: 1rem;
-$font-weight: bold;
+
+
+//Footer:
+footer {
+    background-color: $dark-color; /* Color de fondo oscuro para contraste */
+    color: $secondary-color;
+    text-align: center; /* Texto de derechos de autor centrado */
+    padding: 20px;
+}
+
