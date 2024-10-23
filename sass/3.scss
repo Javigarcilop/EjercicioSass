@@ -1,31 +1,15 @@
-$grid-spacing:3%;
 
-//----- Extends
-%clearfix:after {
-	display:block;
-	clear:both;
-	content:'';
-}
-.row {
-	@extend %clearfix;
 
-	& + & {
-		margin-top:$grid-spacing;
-	}
-}
+@mixin column($span) {
+    width: 33% auto;
+    float: left;
+    padding: 15px;
 
-[class^="col-"] {
-	float:left;
-	margin-right:$grid-spacing;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
+  }
 
-	&:last-child {
-		margin-right:0%;
-	}
-}
-
-//----- Grid System
-.col-4 { width:(100% / 3) - ($grid-spacing * 8 / 12); }
-
+  // Uso: @include column(4); para cada columna (3 columnas = 12/3)
+  
+  .col-4{
+    @include column(4);
+    width:30%;
+  }
