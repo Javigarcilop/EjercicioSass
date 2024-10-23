@@ -4,7 +4,7 @@
 $primary-color: #437a90;
 $secondary-color: #ffffff;
 $dark-color: #00465c;
-$colourful-color : #7830eb;
+$colourful-color : #1751f1;
 $text-color: #000000;
 
 $text-color: #000000;
@@ -12,7 +12,26 @@ $text-color: #000000;
 $font-family: Georgia, 'Times New Roman', Times, serif;
 $heading-size: 2.5rem;
 $text-size: 1rem;
+//Principal:
+.principal-h1 {
+    font-family: $font-family;
+    text-align: center;
+    text-decoration: underline;
+}
 
+.boton {
+    margin: 0;
+  position: absolute;
+  right: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+button {
+    background-color: $colourful-color ;
+    border-radius:20%;
+    color: $secondary-color;
+}
 
 //Footer:
 footer {
@@ -21,3 +40,21 @@ footer {
     text-align: center; /* Texto de derechos de autor centrado */
     padding: 20px;
 }
+
+header {
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+
+.a {
+    color: $secondary-color;
+}
+
+nav {
+    text-align: right;
+}
+
+img {
+    margin-left: 20em;
+}
+
